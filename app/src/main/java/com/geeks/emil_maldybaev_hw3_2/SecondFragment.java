@@ -13,6 +13,9 @@ import androidx.fragment.app.Fragment;
 public class SecondFragment extends Fragment {
     private TextView tvSize;
     private float textSize = 50.0f;
+    //Я не правельно понел условие дз в чем суть этого кода он не прибовляет или отнимает значение к нулю,
+    //оно прибавляет или отнимает к размеру шрифта нуля 10px во втором фрагменте показывается размер(Size)шрифта
+    //удалю этот commit когда исправлю
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

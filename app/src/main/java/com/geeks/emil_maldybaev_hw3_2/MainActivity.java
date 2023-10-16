@@ -6,6 +6,9 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
+    //Я не правельно понел условие дз в чем суть этого кода он не прибовляет или отнимает значение к нулю,
+    //оно прибавляет или отнимает к размеру шрифта нуля 10px во втором фрагменте показывается размер(Size)шрифта
+    //удалю этот commit когда исправлю
     private Button btn_go_to_next;
     private boolean isShowingFirstFragment = true;
 

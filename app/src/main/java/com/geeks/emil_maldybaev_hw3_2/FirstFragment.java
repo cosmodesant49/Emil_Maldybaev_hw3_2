@@ -17,6 +17,9 @@ public class FirstFragment extends Fragment {
     private Button btn_plus_one;
     private Button btn_minus_one;
     private TextView etText;
+    //Я не правельно понел условие дз в чем суть этого кода он не прибовляет или отнимает значение к нулю,
+    //оно прибавляет или отнимает к размеру шрифта нуля 10px во втором фрагменте показывается размер(Size)шрифта
+    //удалю этот commit когда исправлю
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
